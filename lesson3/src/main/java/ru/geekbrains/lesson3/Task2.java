@@ -10,7 +10,7 @@ public class Task2 {
     static Employee generateEmployee() {
         String[] names = new String[]{"Анатолий", "Глеб", "Клим", "Мартин", "Лазарь", "Владлен", "Клим", "Панкратий", "Рубен", "Герман"};
         String[] surnames = new String[]{"Григорьев", "Фокин", "Шестаков", "Хохлов", "Шубин", "Бирюков", "Копылов", "Горбунов", "Лыткин", "Соколов"};
-        String[] specialities = new String[]{"программист", "сварщик", "менеджер", "слесарь", "токарь"};
+        String[] specialities = new String[]{"программист", "продавец", "менеджер", "дизайнер", "бухгалтер"};
 
         int salary = random.nextInt(100, 200);
         int workingDays = random.nextInt(20);
@@ -39,6 +39,4 @@ public class Task2 {
             System.out.println(employee);
         }
     }
-
-
 }

@@ -12,5 +12,5 @@ public class NameComparator implements Comparator<Employee> {
         }
         return result;
     }
-    }
+}
 

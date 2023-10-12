@@ -1,8 +1,5 @@
 package ru.geekbrains.lesson3;
 
-/**
- * Рабочий (фулл-тайм)
- */
 public class Worker extends Employee {
     public Worker(String surName, String name, double salary, String speciality) {
         super(surName, name, salary, speciality);

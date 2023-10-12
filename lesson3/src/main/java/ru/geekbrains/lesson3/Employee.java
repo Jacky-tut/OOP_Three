@@ -1,23 +1,12 @@
 package ru.geekbrains.lesson3;
 
-/**
- * Работник (базовый класс)
- */
+
 public abstract class Employee implements Comparable<Employee> {
 
-    /**
-     * Имя
-     */
     protected String name;
 
-    /**
-     * Фамилия
-     */
     protected String surName;
 
-    /**
-     * Ставка заработной платы
-     */
     protected double salary;
 
     protected String speciality;
@@ -29,10 +18,6 @@ public abstract class Employee implements Comparable<Employee> {
         this.speciality = speciality;
     }
 
-    /**
-     * Расчет среднемесячной заработной платы
-     * @return
-     */
     public abstract double calculateSalary();
 
     @Override
